@@ -4,6 +4,7 @@
 2. ensure you understand every part of it.
 3. tweak and play around with it.
 4. use the same logic to build something different.
+5. BLOG IT
 
 ## Snippets
 
