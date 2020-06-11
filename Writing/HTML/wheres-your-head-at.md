@@ -26,7 +26,7 @@ The `<title>` provides:
 
 
 This self-closing tag provides a single data point via the combination of two of its attributes. The `name` attribute is used to provide document-level metadata and **must** be complimented by the `content` attribute for its value. The `http-equiv` attribute simulates an HTTP response header.
-`name="author"`, `name="application-name"` and `name="keywords"` don't seem to be useful anymore so I won't be using them in a rush. Let's go through some common use cases:
+`name="author"`, `name="application-name"` and `name="keywords"` don't seem to be useful any more so I won't be using them in a rush. Let's go through some common use cases:
 
 
 ### `name="description"` 
@@ -136,7 +136,7 @@ The `media` attribute can be used to apply the CSS conditionally using media que
 
 ## `<base>`
 
-This self-closing tag is not often required. It allows you to specify the base URL for the document. This means that **all** relative URLs contained within the document will be based off of this `<base>` tag. So unless you have a very deep and complicated webite structure, it probably isn't necessary.
+This self-closing tag is not often required. It allows you to specify the base URL for the document. This means that **all** relative URLs contained within the document will be based off of this `<base>` tag. So unless you have a very deep and complicated website structure, it probably isn't necessary.
 
 ```html
 <base href="https://mysite.com">
@@ -147,7 +147,7 @@ If you do choose to use this tag it's probably best placing it first inside the 
 ---
 
 
-## Typical `<head>` Heirarchy
+## Typical `<head>` Hierarchy
 ```html
 <head>
 	<base>
