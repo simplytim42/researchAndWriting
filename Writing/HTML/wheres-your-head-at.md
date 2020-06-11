@@ -40,14 +40,14 @@ Used in search engine results to give more information to potential visitors. *E
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
-Crucial for responsive web design. I won't bloat this overview with all the details but needless to say if you're creating a responsive website, this meta tag is a must. With that in mind, if your site is not responsive then using this tag could worsen the user experience.
+Crucial for responsive web design. I won't bloat this overview with all the details, as I have yet to learn them myself, but needless to say if you're creating a responsive website then this meta tag is a must. With that in mind, if your site is not responsive then using this tag could worsen the user experience.
 
 
 ### `name="robots"`
 ```html
 <meta name="robots" content="noindex, nofollow">
 ```
-Provides guidance to [Web Crawlers](https://en.wikipedia.org/wiki/Web_crawler) as to how they should respond to this web page. In this example, crawlers are being asked to NOT index this page in their database and to NOT follow any links on this page. Again, there is a lot of depth to this tag which I'm not containing here.
+Provides guidance to [Web Crawlers](https://en.wikipedia.org/wiki/Web_crawler) as to how they should respond to this web page. In this example, crawlers are being asked to NOT index this page in their database and to NOT follow any links on this page. Again, there is a lot of depth to this tag which I'm not containing here because I haven't explored that labyrinth yet.
 
 
 ### `http-equiv="content-type"`
